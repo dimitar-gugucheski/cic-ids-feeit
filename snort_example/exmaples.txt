@@ -1,0 +1,6 @@
+
+curl -A "Mozilla/5.0" http://localhost:8000/cats/1
+curl -A "python-requests/2.28.1" http://localhost:8000/cats/secret_folder
+
+for i in {1..25}; do curl -s -A "Mozilla/5.0" http://localhost:8000/cats/guess_$i > /dev/null; done
+

@@ -1,0 +1,7 @@
+alert tcp any any -> any 8000 (msg:"TRIPWIRE: Snort sees traffic on port 8000!"; sid:100000; rev:1;)
+
+
+alert tcp any any -> any 8000 (msg:"Automated Python Script Detected"; content:"python-requests"; nocase; sid:100001; rev:10;)
+
+
+alert tcp any any -> any 8000 (msg:"High-Speed Enumeration Detected"; content:"GET"; nocase; detection_filter:track by_src, count 20, seconds 5; sid:100002; rev:10;)

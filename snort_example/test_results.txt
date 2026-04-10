@@ -1,0 +1,385 @@
+snort-ids-1  | Running in IDS mode
+snort-ids-1  | 
+snort-ids-1  |         --== Initializing Snort ==--
+snort-ids-1  | Initializing Output Plugins!
+snort-ids-1  | Initializing Preprocessors!
+snort-ids-1  | Initializing Plug-ins!
+snort-ids-1  | Parsing Rules file "/etc/snort/mini-snort.conf"
+snort-ids-1  | Tagged Packet Limit: 256
+snort-ids-1  | Log directory = /var/log/snort
+snort-ids-1  | Frag3 global config:
+snort-ids-1  |     Max frags: 65536
+snort-ids-1  |     Fragment memory cap: 4194304 bytes
+snort-ids-1  | Frag3 engine config:
+snort-ids-1  |     Bound Address: default
+snort-ids-1  |     Target-based policy: LINUX
+snort-ids-1  |     Fragment timeout: 60 seconds
+snort-ids-1  |     Fragment min_ttl:   1
+snort-ids-1  |     Fragment Anomalies: No Alert
+snort-ids-1  |     Overlap Limit:     0
+snort-ids-1  |     Min fragment Length:     0
+snort-ids-1  |       Max Expected Streams: 768
+snort-ids-1  | Stream global config:
+snort-ids-1  |     Track TCP sessions: ACTIVE
+snort-ids-1  |     Max TCP sessions: 262144
+snort-ids-1  |     TCP cache pruning timeout: 30 seconds
+snort-ids-1  |     TCP cache nominal timeout: 180 seconds
+snort-ids-1  |     Memcap (for reassembly packet storage): 8388608
+snort-ids-1  |     Track UDP sessions: ACTIVE
+snort-ids-1  |     Max UDP sessions: 131072
+snort-ids-1  |     UDP cache pruning timeout: 30 seconds
+snort-ids-1  |     UDP cache nominal timeout: 180 seconds
+snort-ids-1  |     Track ICMP sessions: INACTIVE
+snort-ids-1  |     Track IP sessions: INACTIVE
+snort-ids-1  |     Log info if session memory consumption exceeds 1048576
+snort-ids-1  |     Send up to 0 active responses
+snort-ids-1  |     Protocol Aware Flushing: ACTIVE
+snort-ids-1  |         Maximum Flush Point: 16384
+snort-ids-1  | Stream TCP Policy config:
+snort-ids-1  |     Bound Address: default
+snort-ids-1  |     Reassembly Policy: LINUX
+snort-ids-1  |     Timeout: 30 seconds
+snort-ids-1  |     Maximum number of bytes to queue per session: 1048576
+snort-ids-1  |     Maximum number of segs to queue per session: 2621
+snort-ids-1  |     Reassembly Ports:
+snort-ids-1  | HttpInspect Config:
+snort-ids-1  |     GLOBAL CONFIG
+snort-ids-1  |       Detect Proxy Usage:       NO
+snort-ids-1  |       IIS Unicode Map Filename: /etc/snort/unicode.map
+snort-ids-1  |       IIS Unicode Map Codepage: 1252
+snort-ids-1  |       Memcap used for logging URI and Hostname: 150994944
+snort-ids-1  |       Max Gzip Memory: 838860
+snort-ids-1  |       Max Gzip Sessions: 1613
+snort-ids-1  |       Gzip Compress Depth: 1460
+snort-ids-1  |       Gzip Decompress Depth: 2920
+snort-ids-1  |     DEFAULT SERVER CONFIG:
+snort-ids-1  |       Server profile: All
+snort-ids-1  |       Ports (PAF): 8000 
+snort-ids-1  |       Server Flow Depth: 300
+snort-ids-1  |       Client Flow Depth: 300
+snort-ids-1  |       Max Chunk Length: 500000
+snort-ids-1  |       Max Header Field Length: 0
+snort-ids-1  |       Max Number Header Fields: 0
+snort-ids-1  |       Max Number of WhiteSpaces allowed with header folding: 200
+snort-ids-1  |       Inspect Pipeline Requests: YES
+snort-ids-1  |       URI Discovery Strict Mode: NO
+snort-ids-1  |       Allow Proxy Usage: NO
+snort-ids-1  |       Disable Alerting: NO
+snort-ids-1  |       Oversize Dir Length: 0
+snort-ids-1  |       Only inspect URI: NO
+snort-ids-1  |       Normalize HTTP Headers: NO
+snort-ids-1  |       Inspect HTTP Cookies: NO
+snort-ids-1  |       Inspect HTTP Responses: NO
+snort-ids-1  |       Extract Gzip from responses: NO
+snort-ids-1  |       Decompress response files:   
+snort-ids-1  |       Unlimited decompression of gzip data from responses: NO
+snort-ids-1  |       Normalize Javascripts in HTTP Responses: NO
+snort-ids-1  |       Normalize HTTP Cookies: NO
+snort-ids-1  |       Enable XFF and True Client IP: NO
+snort-ids-1  |       Log HTTP URI data: NO
+snort-ids-1  |       Log HTTP Hostname data: NO
+snort-ids-1  |       Extended ASCII code support in URI: NO
+snort-ids-1  |       Ascii: YES alert: NO
+snort-ids-1  |       Double Decoding: OFF
+snort-ids-1  |       %U Encoding: OFF
+snort-ids-1  |       Bare Byte: OFF
+snort-ids-1  |       UTF 8: YES alert: NO
+snort-ids-1  |       IIS Unicode: OFF
+snort-ids-1  |       Multiple Slash: YES alert: NO
+snort-ids-1  |       IIS Backslash: OFF
+snort-ids-1  |       Directory Traversal: YES alert: NO
+snort-ids-1  |       Web Root Traversal: YES alert: YES
+snort-ids-1  |       Apache WhiteSpace: YES alert: NO
+snort-ids-1  |       IIS Delimiter: YES alert: NO
+snort-ids-1  |       IIS Unicode Map:  NOT CONFIGURED
+snort-ids-1  |       Non-RFC Compliant Characters: NONE
+snort-ids-1  |       Whitespace Characters: 0x09 0x0b 0x0c 0x0d 
+snort-ids-1  |       Legacy mode: NO
+snort-ids-1  | 
+snort-ids-1  | +++++++++++++++++++++++++++++++++++++++++++++++++++
+snort-ids-1  | Initializing rule chains...
+snort-ids-1  | 3 Snort rules read
+snort-ids-1  |     3 detection rules
+snort-ids-1  |     0 decoder rules
+snort-ids-1  |     0 preprocessor rules
+snort-ids-1  | 3 Option Chains linked into 1 Chain Headers
+snort-ids-1  | +++++++++++++++++++++++++++++++++++++++++++++++++++
+snort-ids-1  | 
+snort-ids-1  | +-------------------[Rule Port Counts]---------------------------------------
+snort-ids-1  | |             tcp     udp    icmp      ip
+snort-ids-1  | |     src       0       0       0       0
+snort-ids-1  | |     dst       3       0       0       0
+snort-ids-1  | |     any       0       0       0       0
+snort-ids-1  | |      nc       1       0       0       0
+snort-ids-1  | |     s+d       0       0       0       0
+snort-ids-1  | +----------------------------------------------------------------------------
+snort-ids-1  | 
+snort-ids-1  | +-----------------------[detection-filter-config]------------------------------
+snort-ids-1  | | memory-cap : 1048576 bytes
+snort-ids-1  | +-----------------------[detection-filter-rules]-------------------------------
+snort-ids-1  | -------------------------------------------------------------------------------
+snort-ids-1  | 
+snort-ids-1  | +-----------------------[rate-filter-config]-----------------------------------
+snort-ids-1  | | memory-cap : 1048576 bytes
+snort-ids-1  | +-----------------------[rate-filter-rules]------------------------------------
+snort-ids-1  | | none
+snort-ids-1  | -------------------------------------------------------------------------------
+snort-ids-1  | 
+snort-ids-1  | +-----------------------[event-filter-config]----------------------------------
+snort-ids-1  | | memory-cap : 1048576 bytes
+snort-ids-1  | +-----------------------[event-filter-global]----------------------------------
+snort-ids-1  | +-----------------------[event-filter-local]-----------------------------------
+snort-ids-1  | | none
+snort-ids-1  | +-----------------------[suppression]------------------------------------------
+snort-ids-1  | | none
+snort-ids-1  | -------------------------------------------------------------------------------
+snort-ids-1  | Rule application order: pass->drop->sdrop->reject->alert->log
+snort-ids-1  | Verifying Preprocessor Configurations!
+snort-ids-1  | 
+snort-ids-1  | [ Port Based Pattern Matching Memory ]
+snort-ids-1  | +-[AC-BNFA Search Info Summary]------------------------------
+snort-ids-1  | | Instances        : 3
+snort-ids-1  | | Patterns         : 6
+snort-ids-1  | | Pattern Chars    : 56
+snort-ids-1  | | Num States       : 56
+snort-ids-1  | | Num Match States : 6
+snort-ids-1  | | Memory           :   5.73Kbytes
+snort-ids-1  | |   Patterns       :   0.29K
+snort-ids-1  | |   Match Lists    :   0.62K
+snort-ids-1  | |   Transitions    :   3.62K
+snort-ids-1  | +-------------------------------------------------
+snort-ids-1  | pcap DAQ configured to passive.
+snort-ids-1  | Acquiring network traffic from "eth0".
+snort-ids-1  | Reload thread starting...
+snort-ids-1  | Reload thread started, thread 0x7fd7ffd71640 (7)
+snort-ids-1  | Decoding Ethernet
+snort-ids-1  | 
+snort-ids-1  |         --== Initialization Complete ==--
+snort-ids-1  | 
+snort-ids-1  |    ,,_     -*> Snort! <*-
+snort-ids-1  |   o"  )~   Version 2.9.15.1 GRE (Build 15125) 
+snort-ids-1  |    ''''    By Martin Roesch & The Snort Team: http://www.snort.org/contact#team
+snort-ids-1  |            Copyright (C) 2014-2019 Cisco and/or its affiliates. All rights reserved.
+snort-ids-1  |            Copyright (C) 1998-2013 Sourcefire, Inc., et al.
+snort-ids-1  |            Using libpcap version 1.10.1 (with TPACKET_V3)
+snort-ids-1  |            Using PCRE version: 8.39 2016-06-14
+snort-ids-1  |            Using ZLIB version: 1.2.11
+snort-ids-1  | 
+snort-ids-1  | Commencing packet processing (pid=1)
+fastapi-app-1  | INFO:     Started server process [1]
+fastapi-app-1  | INFO:     Waiting for application startup.
+fastapi-app-1  | INFO:     Application startup complete.
+fastapi-app-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+fastapi-app-1  | INFO:     172.18.0.1:57048 - "GET /cats/secret_folder HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40344 - "GET /cats/guess_1 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40352 - "GET /cats/guess_2 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40354 - "GET /cats/guess_3 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40366 - "GET /cats/guess_4 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40370 - "GET /cats/guess_5 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40378 - "GET /cats/guess_6 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40384 - "GET /cats/guess_7 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40390 - "GET /cats/guess_8 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40394 - "GET /cats/guess_9 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40398 - "GET /cats/guess_10 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40404 - "GET /cats/guess_11 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40420 - "GET /cats/guess_12 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40422 - "GET /cats/guess_13 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40428 - "GET /cats/guess_14 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40440 - "GET /cats/guess_15 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40446 - "GET /cats/guess_16 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40456 - "GET /cats/guess_17 HTTP/1.1" 200 OK
+snort-ids-1    | 03/15-23:32:21.615609  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.615692  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.616170  [**] [1:100001:10] Automated Python Script Detected [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.616170  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.665097  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.665239  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.665859  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:21.666261  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:57048 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.095768  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.095850  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.096086  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.098951  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.099094  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.099488  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.099934  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40344 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.115435  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.115510  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.115706  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.119214  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.119392  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.120130  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.120602  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40352 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.129507  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.129544  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.129658  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.132225  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.132355  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.132578  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.132876  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40354 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.142744  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.142802  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.142918  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.144161  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.144208  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.144421  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.144573  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40366 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.158521  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.158610  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.158755  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.160013  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.160067  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.160234  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.160372  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40370 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.174485  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.174523  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.174666  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.177336  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.177471  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+fastapi-app-1  | INFO:     172.18.0.1:40462 - "GET /cats/guess_18 HTTP/1.1" 200 OK
+
+
+snort-ids-1    | 03/15-23:32:27.177764  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.178085  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40378 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.194712  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.194789  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.194950  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.197513  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.197674  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+
+
+fastapi-app-1  | INFO:     172.18.0.1:40464 - "GET /cats/guess_19 HTTP/1.1" 200 OK
+snort-ids-1    | 03/15-23:32:27.198019  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.198375  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40384 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.213881  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.213919  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.214025  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.216025  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.216074  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.216363  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.216544  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40390 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.225517  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.225569  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.225627  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.227091  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.227147  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.227399  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.227532  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40394 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.235900  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.235941  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.236007  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.237449  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.237503  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.237631  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.237786  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40398 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.245073  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.245114  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.245183  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.246632  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.246691  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.246813  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.246961  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40404 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.254828  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.254868  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.254932  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.256379  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.256439  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+
+
+fastapi-app-1  | INFO:     172.18.0.1:40478 - "GET /cats/guess_20 HTTP/1.1" 200 OK
+snort-ids-1    | 03/15-23:32:27.256698  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.256865  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40420 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.264091  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.264127  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.264194  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.265490  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.265535  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.265668  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.265791  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40422 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.273626  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.273662  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.273731  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.275300  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.275357  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.275504  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.275681  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40428 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.289206  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.289249  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.289330  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.290790  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.290862  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.291118  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.291259  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40440 -> 172.18.0.2:8000
+fastapi-app-1  | INFO:     172.18.0.1:40484 - "GET /cats/guess_21 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40492 - "GET /cats/guess_22 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40506 - "GET /cats/guess_23 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40508 - "GET /cats/guess_24 HTTP/1.1" 200 OK
+fastapi-app-1  | INFO:     172.18.0.1:40524 - "GET /cats/guess_25 HTTP/1.1" 200 OK
+snort-ids-1    | 03/15-23:32:27.306073  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.306114  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.306223  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.307660  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.307732  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.307986  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.308164  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40446 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.325269  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.325345  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.325491  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.328016  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.328120  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.328304  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.328585  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40456 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.337477  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.337511  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.337588  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.338957  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.339019  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.339237  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.339363  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40462 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.349715  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.349761  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.349834  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.351465  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.351518  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.351868  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.352019  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40464 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.364615  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.364653  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.364725  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.367524  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.367674  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.367808  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.368147  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40478 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.379081  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.379122  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.379218  [**] [1:100002:10] High-Speed Enumeration Detected [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.379218  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.380681  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.380753  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.380957  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.381125  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40484 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.389009  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.389044  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.389106  [**] [1:100002:10] High-Speed Enumeration Detected [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.389106  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.390396  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.390444  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.390625  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.390812  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40492 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.397950  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40506 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.397989  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40506 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.398063  [**] [1:100002:10] High-Speed Enumeration Detected [**] [Priority: 0] {TCP} 172.18.0.1:40506 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.398063  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40506 -> 172.18.0.2:8000
+snort-ids-1    | 03/15-23:32:27.399596  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 172.18.0.1:40506 -> 172.18.0.2:8000
+Gracefully Stopping... press Ctrl+C again to force
+ Container app-snort-ids-1  Stopping
+snort-ids-1    | 03/15-23:32:27.399668  [**] [1:100000:1] TRIPWIRE: Snort sees traffic on port 8000! [**] [Priority: 0] {TCP} 1
+ Container app-snort-ids-1  Stopped
+ Container app-fastapi-app-1  Stopping
+snort-ids-1 exited with code 137
+fastapi-app-1  | INFO:     Shutting down
+fastapi-app-1  | INFO:     Waiting for application shutdown.
+fastapi-app-1  | INFO:     Application shutdown complete.
+fastapi-app-1  | INFO:     Finished server process [1]
+ Container app-fastapi-app-1  Stopped
+fastapi-app-1 exited with code 0

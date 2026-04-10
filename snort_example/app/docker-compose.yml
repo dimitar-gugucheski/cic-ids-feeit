@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  fastapi-app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    
+  snort-ids:
+    build:
+      context: .
+      dockerfile: Dockerfile.snort
+    network_mode: "service:fastapi-app"
+    volumes:
+      - ./local.rules:/etc/snort/rules/local.rules
+      - ./mini-snort.conf:/etc/snort/mini-snort.conf
+    command: snort -c /etc/snort/mini-snort.conf -i eth0 -k none
