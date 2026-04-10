@@ -1,0 +1,21 @@
+#build the container
+sudo docker build -t my-cicflowmeter .
+
+
+#copy the pcap file and the model columns file inside of the directory of the docker container 
+
+
+#permission mod
+sudo chmod 644 traffic.pcap
+
+#do the conversion 
+sudo docker run --rm \
+  -v "$(pwd):/data:z" \
+  my-cicflowmeter \
+  /data/traffic.pcap \
+  /data
+
+#do the preprocess with the preprocess_comparison file
+
+#the test malicious file is used for extracting malicious traffic and sending it to the transformer
+#the csv for the dataset has to be on the same folder level as the test_malicious
