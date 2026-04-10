@@ -1,0 +1,138 @@
+#model 0215
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-0215
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ids-0215
+  template:
+    metadata:
+      labels:
+        app: ids-0215
+    spec:
+      containers:
+      - name: container-0215
+        image: ids-model:0215
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-0215
+spec:
+  selector:
+    app: ids-0215
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+
+#model 0216 
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-0216
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ids-0216
+  template:
+    metadata:
+      labels:
+        app: ids-0216
+    spec:
+      containers:
+      - name: container-0216
+        image: ids-model:0216
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-0216
+spec:
+  selector:
+    app: ids-0216
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+
+#model 0222
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-0222
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ids-0222
+  template:
+    metadata:
+      labels:
+        app: ids-0222
+    spec:
+      containers:
+      - name: container-0222
+        image: ids-model:0222
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-0222
+spec:
+  selector:
+    app: ids-0222
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+
+#model 0301
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-0301
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ids-0301
+  template:
+    metadata:
+      labels:
+        app: ids-0301
+    spec:
+      containers:
+      - name: container-0301
+        image: ids-model:0301
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-0301
+spec:
+  selector:
+    app: ids-0301
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000

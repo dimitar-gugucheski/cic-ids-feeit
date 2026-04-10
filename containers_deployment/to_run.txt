@@ -1,0 +1,16 @@
+#connect terminal 
+eval $(minikube docker-env)
+
+#build images-for each container 
+cd ids0215
+docker build -t ids-model:0215 .
+
+#in terminal
+minikube start
+kubectl apply -f deploy.yaml
+
+#then for port forwarding 
+kubectl port-forward service/service-0215 8015:8000 &
+kubectl port-forward service/service-0216 8016:8000 &
+kubectl port-forward service/service-0222 8022:8000 &
+kubectl port-forward service/service-0301 8031:8000 &

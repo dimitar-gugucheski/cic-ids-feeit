@@ -1,0 +1,7 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+pandas
+scikit-learn
+joblib
+tensorflow==2.16.1
+scikit-learn==1.2.2
